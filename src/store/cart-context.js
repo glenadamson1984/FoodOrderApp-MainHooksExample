@@ -44,8 +44,8 @@ export const CartProvider = ({ children }) => {
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
-    addItem: (item) => handleAddItem,
-    removeItem: (item) => handleRemoveItem,
+    addItem: (item) => handleAddItem(item),
+    removeItem: (item) => handleRemoveItem(item),
   };
 
   return (
