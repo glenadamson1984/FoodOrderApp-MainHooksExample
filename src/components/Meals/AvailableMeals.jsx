@@ -1,4 +1,3 @@
-import { DUMMY_MEALS } from "./__data__/dummy-meals";
 import styles from "./AvailableMeals.module.css";
 import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
